@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: lysd-service
+  datasource:
+    url: jdbc:mysql:///lysd
+    username: root
+    password:
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+mybatis:
+  type-aliases-package: com.lysd.item.pojo

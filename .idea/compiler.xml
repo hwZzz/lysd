@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lysd-common" />
         <module name="lysd-getway" />
+        <module name="lysd-item-interface" />
+        <module name="lysd-item-service" />
         <module name="lysd-registry" />
       </profile>
     </annotationProcessing>
@@ -14,7 +17,11 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="lysd" options="-parameters" />
+      <module name="lysd-common" options="-parameters" />
       <module name="lysd-getway" options="-parameters" />
+      <module name="lysd-item" options="-parameters" />
+      <module name="lysd-item-interface" options="-parameters" />
+      <module name="lysd-item-service" options="-parameters" />
       <module name="lysd-registry" options="-parameters" />
     </option>
   </component>

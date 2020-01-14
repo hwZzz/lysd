@@ -10,6 +10,8 @@
     <modules>
         <module>lysd-registry</module>
         <module>lysd-getway</module>
+        <module>lysd-item</module>
+        <module>lysd-common</module>
     </modules>
 
 
